@@ -1,9 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>
-    Page: foo
-  </div>
+  <AppAlert />
 </template>
 
 <style scoped></style>

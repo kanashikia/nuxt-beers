@@ -1,0 +1,14 @@
+// styles/element/index.scss
+/*just override what you need*/
+@forward 'element-plus/theme-chalk/src/dark/var.scss' with (
+  $bg-color: (
+    'page': #0a0a0a,
+    '': #626aef,
+    'overlay': #1d1e1f,
+  )
+);
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
